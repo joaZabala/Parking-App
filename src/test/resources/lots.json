@@ -1,0 +1,1784 @@
+[
+  {
+    "id": 1,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 2,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 3,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 4,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 5,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 6,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 7,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 8,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 9,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 10,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 11,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 12,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 13,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 14,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 15,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 9000,
+      "vehicle": {
+        "id": "R123TUP",
+        "brand": "KTM",
+        "model": "Duke",
+        "color": "Blanco",
+        "type": "MOTOS"
+      },
+      "amount": 30000,
+      "lotPrice": {
+        "id": 3000,
+        "type": "ALQUILER MENSUAL",
+        "section": "MOTOS",
+        "price": 30000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": "2024-10-01 00:00:00"
+    }
+  },
+  {
+    "id": 16,
+    "floor": "SUBSUELO",
+    "section": "MOTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 17,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 18,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 19,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 20,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 21,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 22,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 23,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 10000,
+      "vehicle": {
+        "id": "AM900UP",
+        "brand": "Citroen",
+        "model": "C4",
+        "color": "Blanco",
+        "type": "AUTOS"
+      },
+      "amount": 50000,
+      "lotPrice": {
+        "id": 6000,
+        "type": "ALQUILER MENSUAL",
+        "section": "AUTOS",
+        "price": 50000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": "2024-10-01 00:00:00"
+    }
+  },
+  {
+    "id": 24,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 2,
+      "vehicle": {
+        "id": "AD045FT",
+        "brand": "Lexus",
+        "model": "CT",
+        "color": "Blanco",
+        "type": "AUTOS"
+      },
+      "amount": 150000,
+      "lotPrice": {
+        "id": 6000,
+        "type": "ALQUILER MENSUAL",
+        "section": "AUTOS",
+        "price": 50000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-01-01 01:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 25,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 26,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 27,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 28,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 29,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 30,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 31,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 32,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 33,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 34,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 35,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 36,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 37,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 38,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 39,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 40,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 41,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 42,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 43,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 44,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 45,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 46,
+    "floor": "SUBSUELO",
+    "section": "AUTOS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 47,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 48,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 11000,
+      "vehicle": {
+        "id": "WW374XX",
+        "brand": "BMW",
+        "model": "X5",
+        "color": "Blanco",
+        "type": "CAMIONETAS"
+      },
+      "amount": 60000,
+      "lotPrice": {
+        "id": 9000,
+        "type": "ALQUILER MENSUAL",
+        "section": "CAMIONETAS",
+        "price": 60000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": "2024-10-01 00:00:00"
+    }
+  },
+  {
+    "id": 49,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 50,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 51,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 52,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 53,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 54,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 55,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 56,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 57,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 58,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 59,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 60,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 61,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 62,
+    "floor": "SUBSUELO",
+    "section": "CAMIONETAS",
+    "type": "ALQUILER MENSUAL",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 63,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 64,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 65,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 66,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 67,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 68,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 69,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 70,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 71,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 72,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 73,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 74,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 75,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 76,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 77,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 78,
+    "floor": "PLANTA BAJA",
+    "section": "MOTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 79,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 12000,
+      "vehicle": {
+        "id": "TM900UP",
+        "brand": "Citroen",
+        "model": "C4",
+        "color": "Blanco",
+        "type": "AUTOS"
+      },
+      "amount": null,
+      "lotPrice": {
+        "id": 5000,
+        "type": "TEMPORARIO",
+        "section": "AUTOS",
+        "price": 4500,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 80,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 81,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 82,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 83,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 84,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 85,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 86,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 87,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 88,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 89,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 90,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 91,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 92,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 93,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 94,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 95,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 96,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 97,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 98,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 99,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 100,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 101,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 102,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 103,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 104,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 105,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 106,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 107,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 108,
+    "floor": "PLANTA BAJA",
+    "section": "AUTOS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 109,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 110,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 111,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 112,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 113,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 114,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 115,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 116,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 117,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 118,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 119,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 120,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 121,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 122,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 123,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 124,
+    "floor": "PLANTA BAJA",
+    "section": "CAMIONETAS",
+    "type": "TEMPORARIO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 125,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 126,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 127,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 128,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 129,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 4000,
+      "vehicle": {
+        "id": "J260DKP",
+        "brand": "Aprilia",
+        "model": "RSV4",
+        "color": "Rojo",
+        "type": "MOTOS"
+      },
+      "amount": 5000000,
+      "lotPrice": {
+        "id": 1000,
+        "type": "PRIVADO",
+        "section": "MOTOS",
+        "price": 5000000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 130,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 131,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 132,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 133,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 134,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 135,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 5000,
+      "vehicle": {
+        "id": "T500DKP",
+        "brand": "KTM",
+        "model": "Duke",
+        "color": "Blanco",
+        "type": "MOTOS"
+      },
+      "amount": 5000000,
+      "lotPrice": {
+        "id": 1000,
+        "type": "PRIVADO",
+        "section": "MOTOS",
+        "price": 5000000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 136,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 6000,
+      "vehicle": {
+        "id": "T304APK",
+        "brand": "KTM",
+        "model": "Duke",
+        "color": "Blanco",
+        "type": "MOTOS"
+      },
+      "amount": 5000000,
+      "lotPrice": {
+        "id": 1000,
+        "type": "PRIVADO",
+        "section": "MOTOS",
+        "price": 5000000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 137,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 138,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 139,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 140,
+    "floor": "PRIMER PISO",
+    "section": "MOTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 141,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 142,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 143,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 144,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 1,
+      "vehicle": {
+        "id": "AD045FT",
+        "brand": "Lexus",
+        "model": "CT",
+        "color": "Blanco",
+        "type": "AUTOS"
+      },
+      "amount": 10000000,
+      "lotPrice": {
+        "id": 4000,
+        "type": "PRIVADO",
+        "section": "AUTOS",
+        "price": 10000000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-01-01 01:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 145,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 146,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 147,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 148,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 149,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 1000,
+      "vehicle": {
+        "id": "SL204VJ",
+        "brand": "Fiat",
+        "model": "Uno",
+        "color": "Rojo",
+        "type": "AUTOS"
+      },
+      "amount": 10000000,
+      "lotPrice": {
+        "id": 4000,
+        "type": "PRIVADO",
+        "section": "AUTOS",
+        "price": 10000000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 150,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 151,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 152,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 153,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 154,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 155,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 156,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 157,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 158,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 159,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 160,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 2000,
+      "vehicle": {
+        "id": "JL205DK",
+        "brand": "Fiat",
+        "model": "Palio",
+        "color": "Azul",
+        "type": "AUTOS"
+      },
+      "amount": 10000000,
+      "lotPrice": {
+        "id": 4000,
+        "type": "PRIVADO",
+        "section": "AUTOS",
+        "price": 10000000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 161,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 162,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 163,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 164,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 165,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 166,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 167,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 168,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 3000,
+      "vehicle": {
+        "id": "AK047KP",
+        "brand": "Citroen",
+        "model": "C3",
+        "color": "Blanco",
+        "type": "AUTOS"
+      },
+      "amount": 10000000,
+      "lotPrice": {
+        "id": 4000,
+        "type": "PRIVADO",
+        "section": "AUTOS",
+        "price": 10000000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 169,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 170,
+    "floor": "PRIMER PISO",
+    "section": "AUTOS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 171,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 172,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 7000,
+      "vehicle": {
+        "id": "WC253GF",
+        "brand": "BMW",
+        "model": "X6",
+        "color": "Negro",
+        "type": "CAMIONETAS"
+      },
+      "amount": 12000000,
+      "lotPrice": {
+        "id": 7000,
+        "type": "PRIVADO",
+        "section": "CAMIONETAS",
+        "price": 12000000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 173,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 174,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 175,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 176,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 177,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 178,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 179,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 180,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 181,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 182,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 183,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 184,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "OCUPADO",
+    "occupied_by": {
+      "id": 8000,
+      "vehicle": {
+        "id": "HC374DK",
+        "brand": "BMW",
+        "model": "X5",
+        "color": "Blanco",
+        "type": "CAMIONETAS"
+      },
+      "amount": 12000000,
+      "lotPrice": {
+        "id": 7000,
+        "type": "PRIVADO",
+        "section": "CAMIONETAS",
+        "price": 12000000,
+        "active": true,
+        "valid_from": "2024-09-01 00:00:00",
+        "valid_to": null
+      },
+      "date_from": "2024-09-01 00:00:00",
+      "date_to": null
+    }
+  },
+  {
+    "id": 185,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  },
+  {
+    "id": 186,
+    "floor": "PRIMER PISO",
+    "section": "CAMIONETAS",
+    "type": "PRIVADO",
+    "status": "LIBRE",
+    "occupied_by": null
+  }
+]
