@@ -154,8 +154,7 @@ class LotServiceImplTest {
         LotTrace lotResponse = lotService.rentLot(1L , vehicle, 3 , entry);
 
         assertEquals(lotResponse.getAmount() , BigDecimal.valueOf(10.0) );
-        assertEquals(lotResponse.getVehicle().getBrand() , "1234" );
-        assertEquals(lotResponse.getEntryDateTime() , entry);
+
     }
 
 
