@@ -19,7 +19,7 @@ public class VehicleRestClient {
     public ResponseEntity<Vehicle> getVehicleById(String id) {
         // TODO: Implementar.
 
-        ResponseEntity<Vehicle> vehicle = restTemplate.getForEntity(baseResourceUrl+"/"+ id, Vehicle.class);
+        ResponseEntity<Vehicle> vehicle = restTemplate.getForEntity(baseResourceUrl+"?id="+ id, Vehicle.class);
 
         if(vehicle.getStatusCode().is2xxSuccessful()){
 

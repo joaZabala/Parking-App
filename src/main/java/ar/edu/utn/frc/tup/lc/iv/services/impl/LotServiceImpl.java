@@ -17,6 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -119,7 +120,45 @@ public class LotServiceImpl implements LotService {
             Si pasa las validaciones anteriores, crear un objeto LotTrace y setearle sus valores y calcular el monto a pagar
             multiplicando el precio del lot por la cantidad de meses. Actualizar estado del lot, guardar y retornar el objeto.
          */
-        return null;
+
+        Lot lot = this.findById(lotId);
+
+        if( !lot.getSection().name().equals(vehicle.getType())) {
+            throw new IllegalArgumentException("Vehicle type does not match lot section.");
+        }
+
+        if(!lot.getType().name().equals("ALQUILER_MENSUAL")) {
+            throw new IllegalArgumentException("Lot id " + lotId + " is not for rent.");
+        }
+
+        if(lot.getStatus().equals(LotStatus.OCUPADO)){
+            throw new IllegalArgumentException("Lot id" + lotId + "is already occupied.");
+
+        }
+
+        LotTrace lotTrace = new LotTrace();
+        lotTrace.setVehicle(vehicle);
+        lotTrace.setEntryDateTime(entryDateTime);
+        lotTrace.setExitDateTime(entryDateTime.plusMonths(months));
+
+        LotPriceEntity lotPriceEntity =
+                lotPriceRepository.findAllByTypeAndSectionAndActiveTrue(lot.getType(), lot.getSection());
+
+        lotTrace.setLotPrice(modelMapper.map(lotPriceEntity , LotPrice.class));
+
+        BigDecimal price = lotPriceEntity.getPrice().multiply(BigDecimal.valueOf(months));
+
+        lotTrace.setAmount(price);
+
+        LotTraceEntity lotTraceEntitysaved =
+                lotTraceRepository.save(modelMapper.map(lotTrace , LotTraceEntity.class));
+
+        lot.setOccupiedBy(modelMapper.map(lotTraceEntitysaved , LotTrace.class));
+        lot.setStatus(LotStatus.OCUPADO);
+
+        LotEntity lotEntitySaved = lotRepository.save(modelMapper.map(lot , LotEntity.class));
+
+        return modelMapper.map(lotEntitySaved.getOccupiedBy() , LotTrace.class);
     }
 
     @Override
@@ -134,7 +173,40 @@ public class LotServiceImpl implements LotService {
             Si pasa las validaciones anteriores, crear un objeto LotTrace y setearle sus valores pero no calcular precio
             ya que se desconoce la fecha de salida. Actualizar estado del lot, guardar y retornar el objeto.
          */
-        return null;
+        Lot lot = this.findById(lotId);
+
+        if( !lot.getSection().name().equals(vehicle.getType())) {
+            throw new IllegalArgumentException("Vehicle type does not match lot section.");
+        }
+
+        if(!lot.getType().name().equals("TEMPORARIO")) {
+            throw new IllegalArgumentException("Lot id " + lotId + " is not for temporary use.");
+        }
+
+
+        if(lot.getStatus().equals(LotStatus.OCUPADO)){
+            throw new IllegalArgumentException("Lot id" + lotId + "is already occupied.");
+
+        }
+
+        LotTrace lotTrace = new LotTrace();
+        lotTrace.setVehicle(vehicle);
+        lotTrace.setEntryDateTime(entryDateTime);
+        lotTrace.setLotPrice(lot.getOccupiedBy().getLotPrice());
+
+        LotPriceEntity lotPriceEntity =
+                lotPriceRepository.findAllByTypeAndSectionAndActiveTrue(lot.getType(), lot.getSection());
+
+        lotTrace.setLotPrice(modelMapper.map(lotPriceEntity , LotPrice.class));
+
+        LotTraceEntity lotTraceEntitySaved =
+                lotTraceRepository.save(modelMapper.map(lotTrace , LotTraceEntity.class));
+
+        lot.setOccupiedBy(modelMapper.map(lotTraceEntitySaved , LotTrace.class));
+        lot.setStatus(LotStatus.OCUPADO);
+        LotEntity lotEntity = lotRepository.save(modelMapper.map(lot , LotEntity.class));
+
+        return modelMapper.map(lotEntity.getOccupiedBy() , LotTrace.class);
     }
 
     @Override
@@ -149,7 +221,33 @@ public class LotServiceImpl implements LotService {
             a pagar multiplicando el precio del lot por la cantidad de horas que estuvo ocupado y guardar el objeto LotTrace,
             guardar el objeto Lot y retornar el objeto LotTrace.
          */
-        return null;
+
+        Lot lot = this.findById(lotId);
+
+        if(!lot.getStatus().name().equals("OCUPADO")){
+            throw new EntityNotFoundException( "Lot id "+lotId+" is not occupied.");
+        }
+
+        if(exitDateTime.isBefore(lot.getOccupiedBy().getEntryDateTime())){
+            throw new IllegalArgumentException("Exit date time cannot be before entry date time.");
+        }
+
+        LotTrace lotTrace = lot.getOccupiedBy();
+        lotTrace.setExitDateTime(exitDateTime);
+
+
+        long hours = Duration.between(lotTrace.getEntryDateTime(), exitDateTime).toHours();
+
+        BigDecimal hourlyRate = lotTrace.getLotPrice().getPrice();
+        BigDecimal totalAmount = hourlyRate.multiply(BigDecimal.valueOf(hours));
+        lotTrace.setAmount(totalAmount);
+
+        lot.setStatus(LotStatus.LIBRE);
+
+        LotTraceEntity lotTraceEntity = lotTraceRepository.save(modelMapper.map(lotTrace , LotTraceEntity.class));
+        LotEntity lotEntity =lotRepository.save(modelMapper.map(lot , LotEntity.class));
+
+        return modelMapper.map(lotTraceEntity , LotTrace.class);
     }
 
     private Lot mapLotWithVehicle(LotEntity lotEntity) {
