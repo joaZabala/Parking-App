@@ -189,6 +189,39 @@ class LotServiceImplTest {
 
 
     }
+
+    @Test
+    void rentLotOcupied() {
+
+        LotTraceEntity lotTraceEntity = new LotTraceEntity();
+        lotTraceEntity.setAmount(BigDecimal.valueOf(10.0));
+        lotTraceEntity.setVehicleId("1234");
+
+
+        LotEntity lot = new LotEntity(1L ,Floor.PRIMER_PISO, Section.AUTOS, LotType.ALQUILER_MENSUAL, LotStatus.OCUPADO,lotTraceEntity);
+
+        Vehicle vehicle = new Vehicle();
+        vehicle.setBrand("1234");
+        vehicle.setType("AUTOS");
+
+        LotPriceEntity lotPriceEntity =
+                new LotPriceEntity(1L , LotType.ALQUILER_MENSUAL, Section.AUTOS,BigDecimal.valueOf(10.0) , LocalDateTime.now() , LocalDateTime.now() , true);
+
+        lotTraceEntity.setLotPrice(lotPriceEntity);
+
+        when(lotPriceRepository.findAllByTypeAndSectionAndActiveTrue(LotType.ALQUILER_MENSUAL, Section.AUTOS))
+                .thenReturn(lotPriceEntity);
+
+        when(vehicleRestClient.getVehicleById("1234")).thenReturn(ResponseEntity.ok(vehicle));
+        when(lotRepository.findById(1L)).thenReturn(Optional.of(lot));
+        when(lotRepository.save(any(LotEntity.class))).thenReturn(lot);
+        when(lotTraceRepository.save(any(LotTraceEntity.class))).thenReturn(lotTraceEntity);
+
+        LocalDateTime entry = LocalDateTime.now();
+        assertThrows( IllegalArgumentException.class , () -> lotService.rentLot(1L , vehicle, 1 , entry));
+
+
+    }
     @Test
     void entryLot() {
     }
