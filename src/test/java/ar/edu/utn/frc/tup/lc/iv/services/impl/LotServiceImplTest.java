@@ -160,7 +160,7 @@ class LotServiceImplTest {
 
 
     @Test
-    void rentLot() {
+    void rentLotWihtException() {
 
         LotTraceEntity lotTraceEntity = new LotTraceEntity();
         lotTraceEntity.setAmount(BigDecimal.valueOf(10.0));
@@ -170,7 +170,6 @@ class LotServiceImplTest {
 
         Vehicle vehicle = new Vehicle();
         vehicle.setBrand("1234");
-        vehicle.setType("AUTOS");
 
         LotPriceEntity lotPriceEntity =
                 new LotPriceEntity(1L , LotType.ALQUILER_MENSUAL, Section.AUTOS,BigDecimal.valueOf(10.0) , LocalDateTime.now() , LocalDateTime.now() , true);
@@ -186,11 +185,9 @@ class LotServiceImplTest {
         when(lotTraceRepository.save(any(LotTraceEntity.class))).thenReturn(lotTraceEntity);
 
         LocalDateTime entry = LocalDateTime.now();
-        LotTrace lotResponse = lotService.rentLot(1L , vehicle, 1 , entry);
+        assertThrows( IllegalArgumentException.class , () -> lotService.rentLot(1L , vehicle, 1 , entry));
 
-        assertEquals(lotResponse.getAmount() , BigDecimal.valueOf(10.0) );
-        assertEquals(lotResponse.getVehicle().getBrand() , "1234" );
-        assertEquals(lotResponse.getEntryDateTime() , entry);
+
     }
     @Test
     void entryLot() {

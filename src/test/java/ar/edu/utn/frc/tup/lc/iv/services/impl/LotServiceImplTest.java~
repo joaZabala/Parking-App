@@ -186,7 +186,7 @@ class LotServiceImplTest {
         when(lotTraceRepository.save(any(LotTraceEntity.class))).thenReturn(lotTraceEntity);
 
         LocalDateTime entry = LocalDateTime.now();
-        LotTrace lotResponse = lotService.rentLot(1L , vehicle, 3 , entry);
+        LotTrace lotResponse = lotService.rentLot(1L , vehicle, 1 , entry);
 
         assertEquals(lotResponse.getAmount() , BigDecimal.valueOf(10.0) );
         assertEquals(lotResponse.getVehicle().getBrand() , "1234" );
