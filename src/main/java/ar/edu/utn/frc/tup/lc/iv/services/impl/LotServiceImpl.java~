@@ -233,8 +233,8 @@ public class LotServiceImpl implements LotService {
 
         LotPriceEntity lotPriceEntity = lotPriceRepository.findAllByTypeAndSectionAndActiveTrue(lot.getType(),lot.getSection());
 
-        long minutesQuantity = Duration.between(lot.getOccupiedBy().getEntryDateTime(), exitDateTime).toMinutes();
-        BigDecimal price = lotPriceEntity.getPrice().multiply(BigDecimal.valueOf(Math.ceil((double) minutesQuantity / 60)));
+        long hoursQuantity = Duration.between(lot.getOccupiedBy().getEntryDateTime(), exitDateTime).toMinutes();
+        BigDecimal price = lotPriceEntity.getPrice().multiply(BigDecimal.valueOf(Math.ceil((double) hoursQuantity / 60)));
 
         LotTrace lotTrace = lot.getOccupiedBy();
         lotTrace.setExitDateTime(exitDateTime);
